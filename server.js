@@ -38,6 +38,8 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 
 app.use(cookieParser());
 
+app.get("/", (req, res) => res.send("welcome new11082025desrdtgfgyhnwwwew"));
+
 
 app.use(xssClean());
 
